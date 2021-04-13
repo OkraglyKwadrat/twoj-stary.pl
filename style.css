@@ -1,0 +1,53 @@
+body {
+    background-color: #3E3E3E;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+a ,
+a:hover,
+a:visited {
+    color: white;
+}
+
+.animeted {
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.animeted2 {
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 0;
+        transform: translate(-1000px, 0);
+    }
+
+    50%{
+        opacity: 0.25;
+        transform: translate(0, 0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.centred {
+    text-align: center;
+}
